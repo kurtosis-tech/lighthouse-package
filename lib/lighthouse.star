@@ -1,9 +1,9 @@
 # Imports
-lighthouse = import_module("github.com/kurtosis-tech/eth-network-package/src/cl/lighthouse/lighthouse_launcher.star")
-static_files = import_module("github.com/kurtosis-tech/eth-network-package/static_files/static_files.star")
-genesis_data_generator = import_module("github.com/kurtosis-tech/eth-network-package/src/prelaunch_data_generator/cl_genesis/cl_genesis_data_generator.star")
-validator_keystores = import_module("github.com/kurtosis-tech/eth-network-package/src/prelaunch_data_generator/cl_validator_keystores/cl_validator_keystore_generator.star")
-input_parser = import_module("github.com/kurtosis-tech/eth-network-package/package_io/input_parser.star")
+lighthouse = import_module("github.com/kurtosis-tech/eth-network-package/src/cl/lighthouse/lighthouse_launcher.star@gyani/new-address")
+static_files = import_module("github.com/kurtosis-tech/eth-network-package/static_files/static_files.star@gyani/new-address")
+genesis_data_generator = import_module("github.com/kurtosis-tech/eth-network-package/src/prelaunch_data_generator/cl_genesis/cl_genesis_data_generator.star@gyani/new-address")
+validator_keystores = import_module("github.com/kurtosis-tech/eth-network-package/src/prelaunch_data_generator/cl_validator_keystores/cl_validator_keystore_generator.star@gyani/new-address")
+input_parser = import_module("github.com/kurtosis-tech/eth-network-package/package_io/input_parser.star@gyani/new-address")
 
 # Constants
 CLIENT_SERVICE_NAME_PREFIX = "cl-client-"
